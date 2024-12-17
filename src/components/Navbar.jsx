@@ -3,7 +3,7 @@ import ModalExample from "./Modal";
 function SiteNavbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div className="container-fluid">
+      <div className="container-fluid container">
         <a className="navbar-brand" href="/">
           <img src="./logo.png" width={36} alt="Logo" />
         </a>

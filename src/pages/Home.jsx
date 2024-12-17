@@ -35,12 +35,13 @@ const Home = () => {
     <div className="container mt-5">
       <div className="row g-4">
         {/* First Card */}
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-md-6 ">
           <div
-            className="card p-4 shadow-lg h-100"
+            className="card p-4 shadow-lg "
             style={{
               borderRadius: "15px",
               background: "linear-gradient(145deg, #6e7dff, #5560ea)",
+              height: "400px",
             }}
           >
             <h2 className="text-center text-white mb-4">Currency Converter</h2>
